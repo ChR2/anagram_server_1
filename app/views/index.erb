@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Enter the word you want to anagramize!</h1>
+
+    <ul> <%= @anagram_list %> </ul>
+  
+ 
+
+  <form action = "/anagram" method = 'post'>
+    
+    <input type='text' name = 'user_input'>
+    <input type = 'submit' value = 'say it!'>
+
+  </form>
+</div>
